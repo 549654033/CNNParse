@@ -5,7 +5,6 @@ np.random.seed(1337)  # for reproducibility
 from keras.models import Sequential
 from keras.models import load_model
 import keras.backend as K
-import pickle
 import cv2
 import matplotlib.pyplot as plt
 import tensorflow as tf
