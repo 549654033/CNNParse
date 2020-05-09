@@ -8,7 +8,8 @@ import keras.backend as K
 import cv2
 import matplotlib.pyplot as plt
 import tensorflow as tf
-K.set_image_dim_ordering('tf')
+#K.set_image_dim_ordering('tf')
+K.image_data_format() == 'channels_first'
 
 class CFOCFeatureShow:
     def __init__(self):
