@@ -1,6 +1,9 @@
 # CNNParse
 This project is used to parse or debug CNN models
+
 (这个项目是为了解析和调试训练好的CNN模型)
+
+License: MIT
 
 Author: Jim Xie
 
@@ -25,6 +28,7 @@ You can use this project to :
    (可视化卷积层生成的特征图)
    
 Requirements:
+
     python: >= 2.7(python2)/3.4(python3)
     
     keras: >= 2.2.4
@@ -34,7 +38,9 @@ Requirements:
     opencv: >= 4.4.0
     
     tensorflow: >= 1.14.0
-    
+ 
+License: MIT
+   
 Author: Jim Xie
 
 Email: 33278970@qq.com
